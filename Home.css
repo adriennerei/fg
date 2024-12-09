@@ -1,0 +1,144 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8f1f2;
+    color: #000;
+    display: flex; 
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #034d3a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #68c2a3;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    padding: 40px;
+}
+
+.hero-text {
+    max-width: 50%;
+    margin: 0 auto 40px;
+    text-align: justify;
+    color: #034d3a;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center the images */
+    margin-top: 20px;
+}
+
+.gallery-item {
+    flex: 1;
+    max-width: 30%; /* Makes each image occupy a third of the container */
+    border: 2px solid #034d3a;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    color: #034d3a;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links ul li {
+    display: inline;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #034d3a;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #555;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}

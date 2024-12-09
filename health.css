@@ -1,0 +1,150 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Open Sauce Sans', sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #034d3a; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.nav-logo {
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center; 
+}
+
+.nav-links {
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+.nav-links a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.nav-links a:hover, #fitness-button {
+    background-color: white; /* White background for hover/selected button */
+    color: #034d3a; /* Green text for contrast */
+    border: 1px solid white; /* White border for a cohesive look */
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.4); /* Soft white shadow */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.fitness-section h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #034d3a;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.fitness-section h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #034d3a;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 32px;
+    color: #034d3a;
+    margin-bottom: 10px;
+}
+
+.intro-section h2 {
+    color: #034d3a;
+}
+
+.intro-section p {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    text-align: justify;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-section img {
+    width: 50%;  /* Adjust this value to make the image smaller */
+    max-width: 400px;  /* Max width to prevent the image from growing too large */
+    height: auto;  /* Maintain the aspect ratio of the image */
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Fitness card styles */
+.fitness-section h2 {
+    font-size: 28px;
+    color: #034d3a;
+    margin-bottom: 20px;
+}
+
+.fitness-card {
+    display: flex;
+    align-items: flex-start;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.fitness-info {
+    flex: 2;
+}
+
+.fitness-info p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Footer Styles */
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}

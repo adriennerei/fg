@@ -1,0 +1,188 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #e8f1f2;
+    color: #000;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #034d3a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a.active {
+    color: #68c2a3;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #68c2a3;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Carousel Container */
+.carousel-container {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px; /* Increase width from 800px to 900px */
+    margin: 0 auto;
+}
+
+.carousel-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Carousel Styles */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Match container width */
+}
+
+.carousel-track-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item iframe {
+    width: 100%;
+    height: 315px; /* Ensure fixed height for iframes */
+    border: none;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Footer Styles */
+footer {
+    color: #034d3a;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links ul li {
+    display: inline;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #034d3a;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #555;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-container {
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .carousel-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+}

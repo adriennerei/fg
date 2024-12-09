@@ -1,0 +1,160 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Open Sauce Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #034d3a; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.nav-logo {
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center; 
+}
+
+.nav-links {
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+.nav-links a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.nav-links a:hover, #fitness-button {
+    background-color: white; 
+    color: #034d3a; 
+    border: 1px solid white; 
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.fitness-section h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #034d3a;
+}
+
+/* Fitness card styles */
+.fitness-card {
+    display: flex;
+    align-items: flex-start;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fitness-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.fitness-info p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.intro-section h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #034d3a;
+}
+
+/* Image styles */
+.intro-section img {
+    width: 50%;  /* Adjust this value to make the image smaller */
+    max-width: 400px;  /* Max width to prevent the image from growing too large */
+    height: auto;  /* Maintain the aspect ratio of the image */
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Text styles */
+.intro-section p {
+    margin: 20px auto;
+    width: 70%;  /* Adjust text width to match the image */
+    max-width: 800px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.fitness-card p {
+    text-align: justify;
+    color: black;
+    line-height: 1.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #034d3a;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center-align the list */
+}
+
+ul > li {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #034d3a;
+    padding: 10px 0;
+    text-align: center; /* Center-align list item titles */
+    border: none; /* Remove top and bottom lines */
+}
+
+ul > li ul {
+    list-style-type: disc;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center; /* Center-align nested lists */
+    padding-left: 0; /* Align nested lists without extra indent */
+}
+
+ul > li ul li {
+    margin: 5px 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center; /* Center-align nested list items */
+}
+
+/* Footer Styles */
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}
+
